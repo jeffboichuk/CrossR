@@ -2,7 +2,7 @@ Package: CrossR
 Title: HIIT Exercises for the R User
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "Jeffrey",
+    person(given = "Jeff",
            family = "Boichuk",
            role = c("aut", "cre"),
            email = "boichuk@virginia.edu")
