@@ -1,0 +1,12 @@
+Package: CrossR
+Title: HIIT Exercises for the R User
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Jeffrey",
+           family = "Boichuk",
+           role = c("aut", "cre"),
+           email = "boichuk@virginia.edu")
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
