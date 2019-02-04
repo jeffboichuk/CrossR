@@ -8,8 +8,12 @@ Authors@R: c(
            email  = "boichuk@virginia.edu"),
     person(given  = "Research for Sustainable Commerce at UVA", 
            role   = c("cph", "fnd")))
-Description: This package is meant to help R Users become more fluent with the 
-   language and master RStudio's shortcuts to increase their efficiency.
+Description: Instructors can levarage `CrossR` to lead R Users through high-
+   intensity interval training (HIIT) exercise sessions. These sessions guide R 
+   Users through simple, hands-on coding activities repetitiously for 20-90 
+   seconds at a time. The goal is to help R Users become more fluent with the R 
+   programming language and RStudio's shortcuts, while keeping things 
+   challenging and fun.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
