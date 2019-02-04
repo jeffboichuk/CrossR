@@ -1,10 +1,10 @@
 library(rvest)
 library(tidyverse)
 
-x <- "https://support.rstudio.com/hc/en-us/articles/200711853-Keyboard-Shortcuts"
-
-# read in the data
-shortcuts <- read_html(x) %>%
+# read in the raw data
+shortcuts <- read_html(
+   "https://support.rstudio.com/hc/en-us/articles/200711853-Keyboard-Shortcuts"
+) %>%
    html_nodes("td") %>%
    html_text()
 
@@ -12,15 +12,17 @@ shortcuts <- read_html(x) %>%
 shortcuts <- shortcuts %>%
    enframe(name = "row_number", value = "description")
 
-# find which rows are empty in shortcuts_data and manually code the last row as
-# empty. the empty rows always come before a title row, which always includes
-# "\r\n"
-empty_rows <- c(str_which(shortcuts$description, "\r\n") - 1, 440)
+# empty rows that come before title rows, which always include "\r\n", need to
+# be dropped. we can find the indices for these rows with str_which. the last
+# row of the raw data also needs to be dropped. dropping these rows will take us
+# from 440 rows to 420 rows.
 
-# removing empty_rows and title rows
+extraneous_rows <- (str_which(shortcuts$description, "\r\n") - 1) %>% c(., 440)
+
+# dropping empty_rows and title rows
 shortcuts <- shortcuts %>%
    filter(
-      !row_number %in% empty_rows,
+      !row_number %in% extraneous_rows,
       str_detect(description, "\r\n") == FALSE
    )
 
@@ -44,4 +46,6 @@ shortcuts <- shortcuts %>%
       mac         = `3`
    )
 
-shortcuts
+# saving the data
+write_csv(shortcuts, "data-raw/shortcuts.csv")
+save(shortcuts, file = "data/shortcuts.rda")
