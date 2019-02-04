@@ -1,11 +1,14 @@
 Package: CrossR
 Title: HIIT Exercises for the R User
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "Jeff",
+Authors@R: c(
+    person(given  = "Jeff",
            family = "Boichuk",
-           role = c("aut", "cre"),
-           email = "boichuk@virginia.edu")
+           role   = c("aut", "cre"),
+           email  = "boichuk@virginia.edu"),
+    person(given  = "Research for Sustainable Commerce at UVA", 
+           role   = c("cph", "fnd"))
+)
 Description: This package is meant to help R Users become more fluent with the 
    language and master RStudio's shortcuts to increase their efficiency.
 License: MIT + file LICENSE
