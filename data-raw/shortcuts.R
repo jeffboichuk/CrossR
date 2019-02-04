@@ -44,6 +44,11 @@ shortcuts <- shortcuts %>%
       description = `1`,
       windows     = `2`,
       mac         = `3`
+   ) %>%
+   mutate(
+      description = ifelse(description == "Goto File/Function",
+                           "Go to File/Function",
+                           description)
    )
 
 # saving the data

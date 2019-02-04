@@ -7,7 +7,7 @@ Navigate command history,Up/Down,Up/Down
 Popup command history,Ctrl+Up,Command+Up
 Interrupt currently executing command,Esc,Esc
 Change working directory,Ctrl+Shift+H,Ctrl+Shift+H
-Goto File/Function,Ctrl+.,Ctrl+.
+Go to File/Function,Ctrl+.,Ctrl+.
 Move cursor to Source Editor,Ctrl+1,Ctrl+1
 New document (except on Chrome/Windows),Ctrl+Shift+N,Command+Shift+N
 New document (Chrome only),Ctrl+Alt+Shift+N,Command+Shift+Alt+N
