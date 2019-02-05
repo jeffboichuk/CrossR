@@ -7,8 +7,8 @@
 #' @param keyword character; a case-insensitive regex pattern identifying rows
 #'   to filter
 #' @param os character; a string vector specifying \code{"windows"},
-#'   \code{"mac"}, or both to return shortcuts that work on that operating
-#'   system
+#'   \code{"mac"}, or both to return shortcuts that work on the user's operating
+#'   system or the specified operating system(s)
 #' @return A \code{tbl_df} of all shortcuts matching the keyword and operating
 #'   system(s)
 #' @examples
