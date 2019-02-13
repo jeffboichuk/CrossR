@@ -20,7 +20,7 @@ LazyData: true
 URL: https://github.com/jeffboichuk/CrossR
 BugReports: https://github.com/jeffboichuk/CrossR/issues
 Imports: 
-    tibble
+    tibble, magrittr
 Suggests: 
     dplyr
 RoxygenNote: 6.1.1
