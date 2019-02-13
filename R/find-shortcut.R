@@ -16,8 +16,10 @@
 #' @export
 find_shortcut <- function(keyword,
                           os = get_os()) {
+
    cols <- match.arg(os, several.ok = TRUE, choices = c("mac", "windows"))
-   result <- CrossR::shortcuts %>%
+
+   result <- shortcuts %>%
       filter(grepl(keyword, description,
                    ignore.case = TRUE)) %>%
       select(description, one_of(cols))
