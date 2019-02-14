@@ -1,3 +1,4 @@
-^LICENSE\.md$
 ^CrossR\.Rproj$
 ^\.Rproj\.user$
+^data-raw$
+inst/hex

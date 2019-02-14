@@ -1,26 +1,35 @@
 Package: CrossR
 Title: HIIT Exercises for the R User
-Version: 0.0.0.9000
+Version: 0.0.1
+Date: 2019-02-13
 Authors@R: c(
     person(given  = "Jeff",
            family = "Boichuk",
-           role   = c("aut", "cre"),
-           email  = "boichuk@virginia.edu"),
+           email  = "boichuk@virginia.edu",
+           role   = c("aut", "cre")),
     person(given  = "Research for Sustainable Commerce at UVA", 
+           email = "R4SC@virginia.edu",
            role   = c("cph", "fnd")))
-Description: Instructors can levarage `CrossR` to lead R Users through high-
+Description: Instructors can leverage `CrossR` to lead R users through high-
    intensity interval training (HIIT) exercise sessions. These sessions guide R 
-   Users through simple, hands-on coding activities repetitiously for 20-90 
-   seconds at a time. The goal is to help R Users become more fluent with the R 
+   users through simple, hands-on coding activities repetitiously for 20-90 
+   seconds at a time. The goal is to help R users become more fluent with the R 
    programming language and RStudio's shortcuts, while keeping things 
    challenging and fun.
-License: MIT + file LICENSE
 Encoding: UTF-8
+Depends:
+    R (>= 3.1.0)
+License: MIT + file LICENSE
 LazyData: true
 URL: https://github.com/jeffboichuk/CrossR
 BugReports: https://github.com/jeffboichuk/CrossR/issues
 Imports: 
-    tibble, magrittr
-Suggests: 
+    tibble, 
     dplyr
-RoxygenNote: 6.1.1
+Suggests:
+    knitr,
+    testthat,
+    rmarkdown,
+    here
+VignetteBuilder: knitr
+RoxygenNote: 6.1.0

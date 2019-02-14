@@ -4,24 +4,55 @@
 \alias{find_shortcut}
 \title{Find Keyboard Shortcut}
 \usage{
-find_shortcut(keyword, os = get_os())
+find_shortcut(keyword = "*", category = c("Build",
+  "Completions (Console and Source)", "Console", "Debug",
+  "Editing (Console and Source)", "Git/SVN", "Plots", "Session", "Source",
+  "Views"), os = get_os())
 }
 \arguments{
 \item{keyword}{character; a case-insensitive regex pattern identifying rows
-to filter}
+to filter. If nothing is specified then all shortcuts are returned via the "*"
+regex pattern}
+
+\item{category}{character; one or more of ten categorizations of shortcuts
+based on behavior}
 
 \item{os}{character; a string vector specifying \code{"windows"},
 \code{"mac"}, or both to return shortcuts that work on the user's operating
 system or the specified operating system(s)}
 }
 \value{
-A \code{tbl_df} of all shortcuts matching the keyword and operating
-  system(s)
+A \code{tbl_df} of all shortcuts matching the keyword, category, and operating system(s)
 }
 \description{
-This function returns all keyboard shortcuts that match the keyword and
-operating system(s) specified.
+This function returns all keyboard shortcuts that match the keyword, category,
+and operating system(s) specified.
+}
+\details{
+The ten different categories are as follows:
+\itemize{
+  \item Build
+  \item Completions (Console and Source)
+  \item Console
+  \item Debug
+  \item Editing (Console and Source)
+  \item Git/SVN
+  \item Plots
+  \item Session
+  \item Source
+  \item Views
+}
 }
 \examples{
-find_shortcut(keyword = "clear", os = "mac")
+# return all shortcuts
+all_shortcuts <- find_shortcut()
+
+# return all the shortcuts regarding "move"
+move_shortcuts <- find_shortcut(keyword = "move")
+
+# return just the "move" shortcuts regarding
+# the "Console" for Mac OSX
+move_console_shortcuts <- find_shortcut(keyword = "move",
+                                        category = "Console",
+                                        os = "mac")
 }
