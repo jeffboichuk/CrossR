@@ -1,14 +1,18 @@
 library(hexSticker)
-library(showtext)
-font_add_google("Berkshire Swash")
-font_add_google("Roboto")
-showtext_auto()
+library(extrafont)
 
-sticker(subplot = "inst/hex/barbell.png",
-        package = "CrossR",
-        s_x = 1, s_y = .75, s_width = .4, s_height = .01,
-        p_size = 7, p_color = "#232D4B", p_family = "Berkshire Swash",
-        h_size = 1.8, h_color = "#E57200",
-        url = "https://github.com/jeffboichuk/CrossR/",
-        u_size = 1.1, u_color = "#232D4B", u_family = "Roboto",
-        filename = "man/figures/logo.png")
+sticker(
+   # package name specifications
+   package = "CrossR",
+   p_size = 7, p_color = "#000000", p_family = "Impact",
+   # subplot specifications
+   subplot = "inst/hex/assign-strength-to-weakness.jpeg",
+   s_x = 1, s_y = .85, s_width = .7, s_height = 11,
+   # hexagon border specifications
+   h_size = 1.8, h_fill = "#ffffff", h_color = "#000000",
+   # url specifications
+   url = "https://github.com/jeffboichuk/CrossR/",
+   u_size = .9, u_color = "#000000", u_family = "Impact",
+   # output specifications
+   filename = "man/figures/logo.png", dpi = 1000
+)
