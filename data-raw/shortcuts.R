@@ -61,6 +61,16 @@ shortcuts <- shortcuts %>%
                            description)
    )
 
+# the keyboard shortcut for "Show Viewer" is incorrectly described as "Show
+# Git/SVN" on the website, but not in the RStudio quick reference guide
+shortcuts <- shortcuts %>%
+   mutate(
+      description = ifelse(description == "Show Git/SVN",
+                           "Show Viewer",
+                           description
+      )
+   )
+
 # saving the data
 write_csv(shortcuts, "data-raw/shortcuts.csv")
 save(shortcuts, file = "data/shortcuts.rda")
