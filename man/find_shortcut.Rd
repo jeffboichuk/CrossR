@@ -4,10 +4,10 @@
 \alias{find_shortcut}
 \title{Find Keyboard Shortcut}
 \usage{
-find_shortcut(keyword = "*", category = c("Build",
-  "Completions (Console and Source)", "Console", "Debug",
-  "Editing (Console and Source)", "Git/SVN", "Plots", "Session", "Source",
-  "Views"), os = get_os())
+find_shortcut(keyword = "*", category = c("Build", "Console", "Debug",
+  "Execute", "Files", "Other", "Panes", "Profile", "Source Control",
+  "Source Editor", "Source Navigation", "Tabs", "Terminal"),
+  os = get_os())
 }
 \arguments{
 \item{keyword}{character; a case-insensitive regex pattern identifying rows
@@ -32,15 +32,18 @@ and operating system(s) specified.
 The ten different categories are as follows:
 \itemize{
   \item Build
-  \item Completions (Console and Source)
   \item Console
   \item Debug
-  \item Editing (Console and Source)
-  \item Git/SVN
-  \item Plots
-  \item Session
-  \item Source
-  \item Views
+  \item Execute
+  \item Files
+  \item Other
+  \item Panes
+  \item Profile
+  \item Source Control
+  \item Source Editor
+  \item Source Navigation
+  \item Tabs
+  \item Terminal
 }
 }
 \examples{

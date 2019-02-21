@@ -17,15 +17,18 @@
 #' The ten different categories are as follows:
 #' \itemize{
 #'   \item Build
-#'   \item Completions (Console and Source)
 #'   \item Console
 #'   \item Debug
-#'   \item Editing (Console and Source)
-#'   \item Git/SVN
-#'   \item Plots
-#'   \item Session
-#'   \item Source
-#'   \item Views
+#'   \item Execute
+#'   \item Files
+#'   \item Other
+#'   \item Panes
+#'   \item Profile
+#'   \item Source Control
+#'   \item Source Editor
+#'   \item Source Navigation
+#'   \item Tabs
+#'   \item Terminal
 #' }
 #' @examples
 #' # return all shortcuts
@@ -41,9 +44,9 @@
 #'                                         os = "mac")
 #' @export
 find_shortcut <- function(keyword = "*",
-                          category = c("Build", "Completions (Console and Source)",
-                                     "Console", "Debug", "Editing (Console and Source)",
-                                     "Git/SVN", "Plots", "Session", "Source", "Views"),
+                          category = c("Build", "Console", "Debug", "Execute", "Files",
+                                       "Other", "Panes", "Profile", "Source Control",
+                                       "Source Editor", "Source Navigation", "Tabs", "Terminal"),
                           os = get_os()) {
 
    this_category <- match.arg(category, several.ok = TRUE)
@@ -70,7 +73,7 @@ get_os <- function(){
          os <- "mac"
       }
       if (grepl("linux-gnu", R.version$os)) {
-         os <- "mac" # show the mac shortcut on linux machines
+         os <- "windows" # show the windows shortcut on linux machines
       }
    }
    unname(tolower(os))
