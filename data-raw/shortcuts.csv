@@ -1,141 +1,123 @@
-category,description,windows,mac
-Console,Move cursor to Console,Ctrl+2,Ctrl+2
-Console,Clear console,Ctrl+L,Ctrl+L
-Console,Move cursor to beginning of line,Home,Command+Left
-Console,Move cursor to end of line,End,Command+Right
-Console,Navigate command history,Up/Down,Up/Down
-Console,Popup command history,Ctrl+Up,Command+Up
-Console,Interrupt currently executing command,Esc,Esc
-Console,Change working directory,Ctrl+Shift+H,Ctrl+Shift+H
-Source,Go to File/Function,Ctrl+.,Ctrl+.
-Source,Move cursor to Source Editor,Ctrl+1,Ctrl+1
-Source,New document (except on Chrome/Windows),Ctrl+Shift+N,Command+Shift+N
-Source,New document (Chrome only),Ctrl+Alt+Shift+N,Command+Shift+Alt+N
-Source,Open document,Ctrl+O,Command+O
-Source,Save active document,Ctrl+S,Command+S
-Source,Close active document (except on Chrome),Ctrl+W,Command+W
-Source,Close active document (Chrome only),Ctrl+Alt+W,Command+Option+W
-Source,Close all open documents,Ctrl+Shift+W,Command+Shift+W
-Source,Preview HTML (Markdown and HTML),Ctrl+Shift+K,Command+Shift+K
-Source,Knit Document (knitr),Ctrl+Shift+K,Command+Shift+K
-Source,Compile Notebook,Ctrl+Shift+K,Command+Shift+K
-Source,Compile PDF (TeX and Sweave),Ctrl+Shift+K,Command+Shift+K
-Source,Insert chunk (Sweave and Knitr),Ctrl+Alt+I,Command+Option+I
-Source,Insert code section,Ctrl+Shift+R,Command+Shift+R
-Source,Run current line/selection,Ctrl+Enter,Command+Enter
-Source,Run current line/selection (retain cursor position),Alt+Enter,Option+Enter
-Source,Re-run previous region,Ctrl+Shift+P,Command+Shift+P
-Source,Run current document,Ctrl+Alt+R,Command+Option+R
-Source,Run from document beginning to current line,Ctrl+Alt+B,Command+Option+B
-Source,Run from current line to document end,Ctrl+Alt+E,Command+Option+E
-Source,Run the current function definition,Ctrl+Alt+F,Command+Option+F
-Source,Run the current code section,Ctrl+Alt+T,Command+Option+T
-Source,Run previous Sweave/Rmd code,Ctrl+Alt+P,Command+Option+P
-Source,Run the current Sweave/Rmd chunk,Ctrl+Alt+C,Command+Option+C
-Source,Run the next Sweave/Rmd chunk,Ctrl+Alt+N,Command+Option+N
-Source,Source a file,Ctrl+Shift+O,Command+Shift+O
-Source,Source the current document,Ctrl+Shift+S,Command+Shift+S
-Source,Source the current document (with echo),Ctrl+Shift+Enter,Command+Shift+Enter
-Source,Fold Selected,Alt+L,Cmd+Option+L
-Source,Unfold Selected,Shift+Alt+L,Cmd+Shift+Option+L
-Source,Fold All,Alt+O,Cmd+Option+O
-Source,Unfold All,Shift+Alt+O,Cmd+Shift+Option+O
-Source,Go to line,Shift+Alt+G,Cmd+Shift+Option+G
-Source,Jump to,Shift+Alt+J,Cmd+Shift+Option+J
-Source,Switch to tab,Ctrl+Shift+.,Ctrl+Shift+.
-Source,Previous tab,Ctrl+F11,Ctrl+F11
-Source,Next tab,Ctrl+F12,Ctrl+F12
-Source,First tab,Ctrl+Shift+F11,Ctrl+Shift+F11
-Source,Last tab,Ctrl+Shift+F12,Ctrl+Shift+F12
-Source,Navigate back,Ctrl+F9,Cmd+F9
-Source,Navigate forward,Ctrl+F10,Cmd+F10
-Source,Extract function from selection,Ctrl+Alt+X,Command+Option+X
-Source,Extract variable from selection,Ctrl+Alt+V,Command+Option+V
-Source,Reindent lines,Ctrl+I,Command+I
-Source,Comment/uncomment current line/selection,Ctrl+Shift+C,Command+Shift+C
-Source,Reflow Comment,Ctrl+Shift+/,Command+Shift+/
-Source,Reformat Selection,Ctrl+Shift+A,Command+Shift+A
-Source,Show Diagnostics,Ctrl+Shift+Alt+P,Command+Shift+Alt+P
-Source,Transpose Letters, ,Ctrl+T
-Source,Move Lines Up/Down,Alt+Up/Down,Option+Up/Down
-Source,Copy Lines Up/Down,Shift+Alt+Up/Down,Command+Option+Up/Down
-Source,Jump to Matching Brace/Paren,Ctrl+P,Ctrl+P
-Source,Expand to Matching Brace/Paren,Ctrl+Shift+E,Ctrl+Shift+E
-Source,Select to Matching Brace/Paren,Ctrl+Shift+Alt+E,Ctrl+Shift+Alt+E
-Source,Add Cursor Above Current Cursor,Ctrl+Alt+Up,Ctrl+Alt+Up
-Source,Add Cursor Below Current Cursor,Ctrl+Alt+Down,Ctrl+Alt+Down
-Source,Move Active Cursor Up,Ctrl+Alt+Shift+Up,Ctrl+Alt+Shift+Up
-Source,Move Active Cursor Down,Ctrl+Alt+Shift+Down,Ctrl+Alt+Shift+Down
-Source,Find and Replace,Ctrl+F,Command+F
-Source,Find Next,"Win: F3, Linux: Ctrl+G",Command+G
-Source,Find Previous,"Win: Shift+F3, Linux: Ctrl+Shift+G",Command+Shift+G
-Source,Use Selection for Find,Ctrl+F3,Command+E
-Source,Replace and Find,Ctrl+Shift+J,Command+Shift+J
-Source,Find in Files,Ctrl+Shift+F,Command+Shift+F
-Source,Check Spelling,F7,F7
-Editing (Console and Source),Undo,Ctrl+Z,Command+Z
-Editing (Console and Source),Redo,Ctrl+Shift+Z,Command+Shift+Z
-Editing (Console and Source),Cut,Ctrl+X,Command+X
-Editing (Console and Source),Copy,Ctrl+C,Command+C
-Editing (Console and Source),Paste,Ctrl+V,Command+V
-Editing (Console and Source),Select All,Ctrl+A,Command+A
-Editing (Console and Source),Jump to Word,Ctrl+Left/Right,Option+Left/Right
-Editing (Console and Source),Jump to Start/End,Ctrl+Home/End or Ctrl+Up/Down,Command+Home/End or Command+Up/Down
-Editing (Console and Source),Delete Line,Ctrl+D,Command+D
-Editing (Console and Source),Select,Shift+[Arrow],Shift+[Arrow]
-Editing (Console and Source),Select Word,Ctrl+Shift+Left/Right,Option+Shift+Left/Right
-Editing (Console and Source),Select to Line Start,Alt+Shift+Left,Command+Shift+Left
-Editing (Console and Source),Select to Line End,Alt+Shift+Right,Command+Shift+Right
-Editing (Console and Source),Select Page Up/Down,Shift+PageUp/PageDown,Shift+PageUp/Down
-Editing (Console and Source),Select to Start/End,Ctrl+Shift+Home/End or Shift+Alt+Up/Down,Command+Shift+Up/Down
-Editing (Console and Source),Delete Word Left,Ctrl+Backspace,Option+Backspace or Ctrl+Option+Backspace
-Editing (Console and Source),Delete Word Right, ,Option+Delete
-Editing (Console and Source),Delete to Line End, ,Ctrl+K
-Editing (Console and Source),Delete to Line Start, ,Option+Backspace
-Editing (Console and Source),Indent,Tab (at beginning of line),Tab (at beginning of line)
-Editing (Console and Source),Outdent,Shift+Tab,Shift+Tab
-Editing (Console and Source),Yank line up to cursor,Ctrl+U,Ctrl+U
-Editing (Console and Source),Yank line after cursor,Ctrl+K,Ctrl+K
-Editing (Console and Source),Insert currently yanked text,Ctrl+Y,Ctrl+Y
-Editing (Console and Source),Insert assignment operator,Alt+-,Option+-
-Editing (Console and Source),Insert pipe operator,Ctrl+Shift+M,Cmd+Shift+M
-Editing (Console and Source),Show help for function at cursor,F1,F1
-Editing (Console and Source),Show source code for function at cursor,F2,F2
-Editing (Console and Source),Find usages for symbol at cursor (C++),Ctrl+Alt+U,Cmd+Option+U
-Completions (Console and Source),Attempt completion,Tab or Ctrl+Space,Tab or Command+Space
-Completions (Console and Source),Navigate candidates,Up/Down,Up/Down
-Completions (Console and Source),Accept selected candidate,"Enter, Tab, or Right","Enter, Tab, or Right"
-Completions (Console and Source),Dismiss completion popup,Esc,Esc
-Views,Move focus to Source Editor,Ctrl+1,Ctrl+1
-Views,Move focus to Console,Ctrl+2,Ctrl+2
-Views,Move focus to Help,Ctrl+3,Ctrl+3
-Views,Show History,Ctrl+4,Ctrl+4
-Views,Show Files,Ctrl+5,Ctrl+5
-Views,Show Plots,Ctrl+6,Ctrl+6
-Views,Show Packages,Ctrl+7,Ctrl+7
-Views,Show Environment,Ctrl+8,Ctrl+8
-Views,Show Git/SVN,Ctrl+9,Ctrl+9
-Views,Show Build,Ctrl+0,Ctrl+0
-Views,Sync Editor & PDF Preview,Ctrl+F8,Cmd+F8
-Views,Show Keyboard Shortcut Reference,Alt+Shift+K,Option+Shift+K
-Build,Build and Reload,Ctrl+Shift+B,Cmd+Shift+B
-Build,Load All (devtools),Ctrl+Shift+L,Cmd+Shift+L
-Build,Test Package (Desktop),Ctrl+Shift+T,Cmd+Shift+T
-Build,Test Package (Web),Ctrl+Alt+F7,Cmd+Alt+F7
-Build,Check Package,Ctrl+Shift+E,Cmd+Shift+E
-Build,Document Package,Ctrl+Shift+D,Cmd+Shift+D
-Debug,Toggle Breakpoint,Shift+F9,Shift+F9
-Debug,Execute Next Line,F10,F10
-Debug,Step Into Function,Shift+F4,Shift+F4
-Debug,Finish Function/Loop,Shift+F6,Shift+F6
-Debug,Continue,Shift+F5,Shift+F5
-Debug,Stop Debugging,Shift+F8,Shift+F8
-Plots,Previous plot,Ctrl+Alt+F11,Command+Option+F11
-Plots,Next plot,Ctrl+Alt+F12,Command+Option+F12
-Git/SVN,Diff active source document,Ctrl+Alt+D,Ctrl+Option+D
-Git/SVN,Commit changes,Ctrl+Alt+M,Ctrl+Option+M
-Git/SVN,Scroll diff view,Ctrl+Up/Down,Ctrl+Up/Down
-Git/SVN,Stage/Unstage (Git),Spacebar,Spacebar
-Git/SVN,Stage/Unstage and move to next (Git),Enter,Enter
-Session,Quit Session (desktop only),Ctrl+Q,Command+Q
-Session,Restart R Session,Ctrl+Shift+F10,Command+Shift+F10
+category,description,mac,windows
+Build,Build All,Shift + Cmd + B,Ctrl + Shift + B
+Build,Check Package,Shift + Cmd + E,Ctrl + Shift + E
+Build,Compile PDF,Shift + Cmd + K,Ctrl + Shift + K
+Build,Devtools Load All,Shift + Cmd + L,Ctrl + Shift + L
+Build,Knit Document,Shift + Cmd + K,Ctrl + Shift + K
+Build,Preview HTML,Shift + Cmd + K,Ctrl + Shift + K
+Build,Roxygenize Package,Shift + Cmd + D,Ctrl + Shift + D
+Build,Test Package,Shift + Cmd + T,Ctrl + Shift + T
+Console,Console Clear,Ctrl + L,Ctrl + L
+Debug,Debug Breakpoint,Shift + F9,Shift + F9
+Debug,Debug Continue,Shift + F5,Shift + F5
+Debug,Debug Finish,Shift + F6,Shift + F6
+Debug,Debug Step,F10,F10
+Debug,Debug Step Into,Shift + F4,Shift + F4
+Debug,Debug Stop,Shift + F8,Shift + F8
+Execute,Execute All Code,Alt + Cmd + R,Ctrl + Alt + R
+Execute,Execute Code,Cmd + Enter,Ctrl + Enter
+Execute,Execute Code Without Moving Cursor,Alt + Enter,Alt + Enter
+Execute,Execute Current Chunk,Shift + Cmd + Enter,Ctrl + Shift + Enter
+Execute,Execute Current Function,Alt + Cmd + F,Ctrl + Alt + F
+Execute,Execute Current Section,Alt + Cmd + T,Ctrl + Alt + T
+Execute,Execute From Current Line,Alt + Cmd + E,Ctrl + Alt + E
+Execute,Execute Last Code,Shift + Cmd + P,Ctrl + Shift + P
+Execute,Execute Next Chunk,Alt + Cmd + N,Ctrl + Alt + N
+Execute,Execute Previous Chunks,Alt + Cmd + P,Ctrl + Alt + P
+Execute,Execute To Current Line,Alt + Cmd + B,Ctrl + Alt + B
+Execute,Send To Terminal,Alt + Cmd + Enter,Ctrl + Alt + Enter
+Execute,Source a File,Ctrl + Alt + G,Ctrl + Alt + G
+Execute,Source Active Document With Echo,Shift + Cmd + Enter,Ctrl + Shift + Enter
+Execute,Source Active File,Shift + Cmd + S,Ctrl + Shift + S
+Files,Close All Source Docs,Shift + Cmd + W,Ctrl + Shift + W
+Files,Close Other Source Docs,Shift + Alt + Cmd + W,Ctrl + Shift + Alt + W
+Files,Close Source Doc,Cmd + W,Ctrl + W
+Files,Find In Files,Shift + Cmd + F,Ctrl + Shift + F
+Files,New R Script,Shift + Cmd + N,Ctrl + Shift + N
+Files,Open Source Doc,Cmd + O,Ctrl + O
+Files,Save All Source Docs,Alt + Cmd + S,Ctrl + Alt + S
+Files,Save Source Doc,Cmd + S,Ctrl + S
+Other,Check Spelling,F7,F7
+Other,Help Keyboard Shortcuts,Shift + Alt + K,Alt + Shift + K
+Other,Log Focused Element,Shift + Ctrl + `,Ctrl + Shift + `
+Other,Next Plot,Alt + Cmd + F12,Ctrl + Alt + F12
+Other,Previous Plot,Alt + Cmd + F11,Ctrl + Alt + F11
+Other,Project Options,"Shift + Cmd + ,","Shift + Ctrl + ,"
+Other,Quit Session,Cmd + Q,Ctrl + Q
+Other,Refresh Super Dev Mode,Shift + Cmd + F9,Ctrl + Shift + F9
+Other,Restart R,Shift + Cmd + 0,Ctrl + Shift + 0
+Other,Set Working Dir,Shift + Ctrl + H,Ctrl + Shift + H
+Other,Show Options,"Cmd + ,","Ctrl + ,"
+Other,Show Request Log,Ctrl + `,Ctrl + `
+Other,Synctex Search,Cmd + F8,Ctrl + F8
+Other,Toggle Full Screen,Ctrl + Cmd + F,Ctrl + Ctrl + F
+Other,Viewer Save All And Refresh,Shift + Cmd + F5,Ctrl + Shift + F5
+Panes,Activate Build,Ctrl + F2,Ctrl + F2
+Panes,Activate Connections,Ctrl + F5,Ctrl + F5
+Panes,Activate Console,Ctrl + 2,Ctrl + 2
+Panes,Activate Environment,Ctrl + 8,Ctrl + 8
+Panes,Activate Files,Ctrl + 5,Ctrl + 5
+Panes,Activate Help,Ctrl + 3,Ctrl + 3
+Panes,Activate History,Ctrl + 4,Ctrl + 4
+Panes,Activate Packages,Ctrl + 7,Ctrl + 7
+Panes,Activate Plots,Ctrl + 6,Ctrl + 6
+Panes,Activate Source,Ctrl + 1,Ctrl + 1
+Panes,Activate Terminal,Shift + Alt + T,Alt + Shift + T
+Panes,Activate VCS,Ctrl + F1,Ctrl + F1
+Panes,Activate Viewer,Ctrl + 9,Ctrl + 9
+Profile,Profile Code,Cmd + Shift + Alt + P,Ctrl + Alt + Shift + P
+Source Control,Diff Files,Ctrl + Alt + D,Ctrl + Alt + D
+Source Control,VCS Commit,Ctrl + Alt + M,Ctrl + Alt + M
+Source Editor,Collapse All Folds,Alt + Cmd + O,Alt + O
+Source Editor,Collapse Fold,Alt + Cmd + L,Alt + L
+Source Editor,Comment Uncomment,Shift + Cmd + C,Ctrl + Shift + C
+Source Editor,Expand All Folds,Shift + Alt + Cmd + O,Shift + Alt + O
+Source Editor,Expand Fold,Shift + Alt + Cmd + L,Shift + Alt + L
+Source Editor,Extract Function,Alt + Cmd + X,Ctrl + Alt + X
+Source Editor,Extract Local Variable,Alt + Cmd + V,Ctrl + Alt + V
+Source Editor,Insert Assignment Operator,Alt + -,Alt + -
+Source Editor,Insert Chunk,Alt + Cmd + I,Ctrl + Alt + I
+Source Editor,Insert Pipe Operator,Shift + Cmd + M,Ctrl + Shift + M
+Source Editor,Insert Roxygen Skeleton,Shift + Alt + Cmd + R,Ctrl + Shift + Alt + R
+Source Editor,Insert Section,Shift + Cmd + R,Ctrl + Shift + R
+Source Editor,Insert Snippet,Shift + Tab,Shift + Tab
+Source Editor,Insert Yanked Text,Ctrl + Y,Ctrl + Y
+Source Editor,Kill Region,Ctrl + W,Ctrl + W
+Source Editor,Reflow Comment,Shift + Cmd + /,Ctrl + Shift + /
+Source Editor,Reformat Code,Shift + Cmd + A,Ctrl + Shift + A
+Source Editor,Reindent,Cmd + I,Ctrl + I
+Source Editor,Rename In Scope,Cmd + Shift + Alt + M,Ctrl + Alt + Shift + M
+Source Editor,Show Diagnostics Project,Shift + Alt + Cmd + D,Ctrl + Shift + Alt + D
+Source Editor,Yank Line After Cursor,Ctrl + K,Ctrl + K
+Source Editor,Yank Line Up to Cursor,Ctrl + U,Ctrl + U
+Source Navigation,Add Cursor Above,Ctrl + Alt + Up,Ctrl + Alt + Up
+Source Navigation,Add Cursor Below,Ctrl + Alt + Down,Ctrl + Alt + Down
+Source Navigation,Expand Selection,Cmd + Shift + Alt + Up,Ctrl + Shift + Up
+Source Navigation,Expand To Matching,Shift + Ctrl + E,Ctrl + Shift + Alt + E
+Source Navigation,Find From Selection,Cmd + E,Ctrl + F3
+Source Navigation,Find Next,Cmd + G,F3
+Source Navigation,Find Previous,Shift + Cmd + G,Shift + F3
+Source Navigation,Find Replace,Cmd + F,Ctrl + F
+Source Navigation,Find Usages,Alt + Cmd + U,Ctrl + Alt + U
+Source Navigation,Go To End Of Current Scope,Ctrl + Alt + E,Ctrl + Alt + E
+Source Navigation,Go To File Function,Ctrl + .,Ctrl + .
+Source Navigation,Go To Line,Shift + Alt + Cmd + G,Shift + Alt + G
+Source Navigation,Go To Next Section,Cmd + PageDown,Ctrl + PageDown
+Source Navigation,Go To Prev Section,Cmd + PageUp,Ctrl + PageUp
+Source Navigation,Go To Start Of Current Scope,Ctrl + Alt + A,Ctrl + Alt + A
+Source Navigation,Jump To,Shift + Alt + Cmd + J,Shift + Alt + J
+Source Navigation,Jump To Matching,Ctrl + P,Ctrl + P
+Source Navigation,Replace And Find,Shift + Cmd + J,Ctrl + Shift + J
+Source Navigation,Shrink Selection,Cmd + Shift + Alt + Down,Ctrl + Shift + Down
+Source Navigation,Source Navigate Back,Cmd + F9,Ctrl + F9
+Source Navigation,Source Navigate Forward,Cmd + F10,Ctrl + F10
+Source Navigation,Split Into Lines,Ctrl + Alt + A,Ctrl + Alt + A
+Source Navigation,Toggle Document Outline,Shift + Cmd + O,Ctrl + Shift + O
+Tabs,First Tab,Shift + Ctrl + F11,Ctrl + Shift + F11
+Tabs,Last Tab,Shift + Ctrl + F12,Ctrl + Shift + F12
+Tabs,Next Tab,Ctrl + Tab,Ctrl + Tab
+Tabs,Previous Tab,Shift + Ctrl + Tab,Ctrl + Shift + Tab
+Tabs,Switch To Tab,Shift + Ctrl + .,Ctrl + Shift + .
+Terminal,New Terminal,Shift + Alt + R,Alt + Shift + R
+Terminal,Next Terminal,Ctrl + Alt + F12,Ctrl + Alt + F12
+Terminal,Previous Terminal,Ctrl + Alt + F11,Ctrl + Alt + F11
