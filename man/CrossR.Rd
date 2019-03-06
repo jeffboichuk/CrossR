@@ -26,6 +26,11 @@ Useful links:
 \author{
 \strong{Maintainer}: Jeff Boichuk \email{boichuk@virginia.edu}
 
+Authors:
+\itemize{
+  \item Steven M. Mortimer \email{reportmort@gmail.com}
+}
+
 Other contributors:
 \itemize{
   \item Research for Sustainable Commerce at UVA \email{R4SC@virginia.edu} [copyright holder, funder]
