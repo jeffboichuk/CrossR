@@ -163,6 +163,11 @@ shortcuts <- shortcuts %>%
       mac = gsub("Cmd \\+ Shift", "Shift + Cmd", mac),
       mac = gsub("Ctrl \\+ Shift", "Shift + Ctrl", mac),
       mac = gsub("Alt \\+ Shift", "Shift + Alt", mac),
+      mac = gsub("Cmd \\+ Alt", "Alt + Cmd", mac),
+
+      windows = gsub("Ctrl \\+ Shift", "Shift + Ctrl", windows),
+      mac = gsub("Ctrl \\+ Shift", "Shift + Ctrl", windows),
+      mac = gsub("Alt \\+ Shift", "Shift + Alt", mac),
       mac = gsub("Cmd \\+ Alt", "Alt + Cmd", mac)
    )
 

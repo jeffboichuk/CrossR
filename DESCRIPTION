@@ -7,6 +7,10 @@ Authors@R: c(
            family = "Boichuk",
            email  = "boichuk@virginia.edu",
            role   = c("aut", "cre")),
+           person(given  = c("Steven", "M."),
+           family = "Mortimer",
+           email  = "reportmort@gmail.com",
+           role   = "aut"),
     person(given  = "Research for Sustainable Commerce at UVA", 
            email = "R4SC@virginia.edu",
            role   = c("cph", "fnd")))
