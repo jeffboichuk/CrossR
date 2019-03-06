@@ -38,7 +38,7 @@ Files,Open Source Doc,Cmd + O,Ctrl + O
 Files,Save All Source Docs,Alt + Cmd + S,Ctrl + Alt + S
 Files,Save Source Doc,Cmd + S,Ctrl + S
 Other,Check Spelling,F7,F7
-Other,Help Keyboard Shortcuts,Shift + Alt + K,Alt + Shift + K
+Other,Help Keyboard Shortcuts,Shift + Alt + K,Shift + Alt + K
 Other,Log Focused Element,Shift + Ctrl + `,Ctrl + Shift + `
 Other,Next Plot,Alt + Cmd + F12,Ctrl + Alt + F12
 Other,Previous Plot,Alt + Cmd + F11,Ctrl + Alt + F11
@@ -52,20 +52,20 @@ Other,Show Request Log,Ctrl + `,Ctrl + `
 Other,Synctex Search,Cmd + F8,Ctrl + F8
 Other,Toggle Full Screen,Ctrl + Cmd + F,Ctrl + Ctrl + F
 Other,Viewer Save All And Refresh,Shift + Cmd + F5,Ctrl + Shift + F5
-Panes,Activate Build,Ctrl + F2,Ctrl + F2
-Panes,Activate Connections,Ctrl + F5,Ctrl + F5
-Panes,Activate Console,Ctrl + 2,Ctrl + 2
-Panes,Activate Environment,Ctrl + 8,Ctrl + 8
-Panes,Activate Files,Ctrl + 5,Ctrl + 5
-Panes,Activate Help,Ctrl + 3,Ctrl + 3
-Panes,Activate History,Ctrl + 4,Ctrl + 4
-Panes,Activate Packages,Ctrl + 7,Ctrl + 7
-Panes,Activate Plots,Ctrl + 6,Ctrl + 6
-Panes,Activate Source,Ctrl + 1,Ctrl + 1
-Panes,Activate Terminal,Shift + Alt + T,Alt + Shift + T
-Panes,Activate VCS,Ctrl + F1,Ctrl + F1
-Panes,Activate Viewer,Ctrl + 9,Ctrl + 9
-Profile,Profile Code,Cmd + Shift + Alt + P,Ctrl + Alt + Shift + P
+Panes,Show Build,Ctrl + F2,Ctrl + F2
+Panes,Show Connections,Ctrl + F5,Ctrl + F5
+Panes,Show Console,Ctrl + 2,Ctrl + 2
+Panes,Show Environment,Ctrl + 8,Ctrl + 8
+Panes,Show Files,Ctrl + 5,Ctrl + 5
+Panes,Show Help,Ctrl + 3,Ctrl + 3
+Panes,Show History,Ctrl + 4,Ctrl + 4
+Panes,Show Packages,Ctrl + 7,Ctrl + 7
+Panes,Show Plots,Ctrl + 6,Ctrl + 6
+Panes,Show Source,Ctrl + 1,Ctrl + 1
+Panes,Show Terminal,Shift + Alt + T,Shift + Alt + T
+Panes,Show VCS,Ctrl + F1,Ctrl + F1
+Panes,Show Viewer,Ctrl + 9,Ctrl + 9
+Profile,Profile Code,Cmd + Shift + Alt + P,Ctrl + Shift + Alt + P
 Source Control,Diff Files,Ctrl + Alt + D,Ctrl + Alt + D
 Source Control,VCS Commit,Ctrl + Alt + M,Ctrl + Alt + M
 Source Editor,Collapse All Folds,Alt + Cmd + O,Alt + O
@@ -86,7 +86,7 @@ Source Editor,Kill Region,Ctrl + W,Ctrl + W
 Source Editor,Reflow Comment,Shift + Cmd + /,Ctrl + Shift + /
 Source Editor,Reformat Code,Shift + Cmd + A,Ctrl + Shift + A
 Source Editor,Reindent,Cmd + I,Ctrl + I
-Source Editor,Rename In Scope,Cmd + Shift + Alt + M,Ctrl + Alt + Shift + M
+Source Editor,Rename In Scope,Cmd + Shift + Alt + M,Ctrl + Shift + Alt + M
 Source Editor,Show Diagnostics Project,Shift + Alt + Cmd + D,Ctrl + Shift + Alt + D
 Source Editor,Yank Line After Cursor,Ctrl + K,Ctrl + K
 Source Editor,Yank Line Up to Cursor,Ctrl + U,Ctrl + U
@@ -118,6 +118,6 @@ Tabs,Last Tab,Shift + Ctrl + F12,Ctrl + Shift + F12
 Tabs,Next Tab,Ctrl + Tab,Ctrl + Tab
 Tabs,Previous Tab,Shift + Ctrl + Tab,Ctrl + Shift + Tab
 Tabs,Switch To Tab,Shift + Ctrl + .,Ctrl + Shift + .
-Terminal,New Terminal,Shift + Alt + R,Alt + Shift + R
+Terminal,New Terminal,Shift + Alt + R,Shift + Alt + R
 Terminal,Next Terminal,Ctrl + Alt + F12,Ctrl + Alt + F12
 Terminal,Previous Terminal,Ctrl + Alt + F11,Ctrl + Alt + F11

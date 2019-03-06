@@ -158,17 +158,19 @@ shortcuts <- shortcuts %>%
       windows = gsub("\\+", " + ", windows)
    ) %>%
    # swap the keystrokes to be from left to right
-   # TODO (JEFF): swap the keystrokes from left to right for windows
    mutate(
       mac = gsub("Cmd \\+ Shift", "Shift + Cmd", mac),
       mac = gsub("Ctrl \\+ Shift", "Shift + Ctrl", mac),
       mac = gsub("Alt \\+ Shift", "Shift + Alt", mac),
       mac = gsub("Cmd \\+ Alt", "Alt + Cmd", mac),
 
-      windows = gsub("Ctrl \\+ Shift", "Shift + Ctrl", windows),
-      mac = gsub("Ctrl \\+ Shift", "Shift + Ctrl", windows),
-      mac = gsub("Alt \\+ Shift", "Shift + Alt", mac),
-      mac = gsub("Cmd \\+ Alt", "Alt + Cmd", mac)
+      # windows users likely press ctrl with their left pinky finger and shift
+      # with their ring finger, so I don't think we should flip this one
+      # windows = gsub("Ctrl \\+ Shift", "Shift + Ctrl", windows),
+      windows = gsub("Alt \\+ Shift", "Shift + Alt", windows),
+
+      # activate shows up as show in RStudio's keyboard shortcut quick reference
+      description = gsub("Activate", "Show", description)
    )
 
 # saving the data
